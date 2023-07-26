@@ -17,3 +17,11 @@
 .nav-link:hover {
 	@apply text-selected-text transition-all duration-300;
 }
+
+.btn-purple {
+	@apply px-6 bg-theme font-bold rounded-lg;
+}
+
+.btn-purple:hover {
+	@apply bg-purple-600 transition-all duration-300;
+}
