@@ -10,6 +10,13 @@
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
 			rel="stylesheet"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<title>ポートフォリオサイト</title>
 	</head>
 	<body class="font-poppins bg-body text-white">
@@ -20,7 +27,7 @@
 			>
 				<div class="text-lg font-bold">ShinCode.com</div>
 				<!-- space-x-XX 子要素間の余白を調整 -->
-				<div class="space-x-12">
+				<div class="space-x-12 hidden md:flex items-center">
 					<a href="#home" class="nav-link">ホーム</a>
 					<a href="#portfolio" class="nav-link">ポートフォリオ</a>
 					<a href="#client" class="nav-link">お客様</a>
@@ -31,6 +38,9 @@
 							お問い合わせ
 						</button></a
 					>
+				</div>
+				<div class="md:hidden">
+					<i class="fa-solid fa-bars"></i>
 				</div>
 			</div>
 		</header>
