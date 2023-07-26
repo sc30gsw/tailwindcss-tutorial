@@ -10,6 +10,7 @@ module.exports = {
 					500: "#4299e1",
 				},
 				body: "#050505",
+				"selected-text": "#A3A3FF",
 			},
 		},
 		fontFamily: {

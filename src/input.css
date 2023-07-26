@@ -13,3 +13,7 @@
 .btn-blue:hover {
 	@apply bg-blue-600;
 }
+
+.nav-link:hover {
+	@apply text-selected-text transition-all duration-300;
+}
